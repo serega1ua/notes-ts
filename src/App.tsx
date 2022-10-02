@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import Sidebar from './components/Sidebar';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Sidebar />
+    </>
   );
-}
+};
 
 export default App;
